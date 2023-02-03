@@ -46,10 +46,10 @@ def send_email2():
 
 'Get on a call @ +91-7767842722 or email us: connect@yelloyolk.com <br><br>'
 
-'Neha Sharma<br>'
-'Team Yelloyolk<br>'
-'Yelloyolk Media Pvt. Ltd.<br>'
-'www.yelloyolk.com <br><br> <img src="cid:image1" alt="Yelloyolk Media"> </body></html>', 'html', 'utf-8')
+'Name<br>'
+'Team Name<br>'
+'Company Name<br>'
+'www.company.com <br><br> <img src="cid:image1" alt="Yelloyolk Media"> </body></html>', 'html', 'utf-8')
         msgAlternative.attach(msgText)
 
         fp = open('yellowyolk.png', 'rb')

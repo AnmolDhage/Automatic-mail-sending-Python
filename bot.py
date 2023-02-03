@@ -24,8 +24,8 @@ def send_email2():
         message = MIMEMultipart('related')
         
         port = 465  # For SSL
-        sender_email = "connect@yelloyolk.com"
-        password = "Syncrushtech4!"
+        sender_email = ""
+        password = ""
         msgAlternative  = MIMEMultipart('alternative')
         message.attach(msgAlternative)
         msgText = MIMEText('<html><body> Do you have trouble getting customers with your current Website?<br><br>'
